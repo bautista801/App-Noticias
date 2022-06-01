@@ -4,7 +4,7 @@ import Noticia from "./Noticia"
 const ListadoNoticias = () => {
 
     const {noticias} = useNoticias()
-    console.log(noticias)
+    //console.log(noticias)
 
   return (
     <div className="container-fluid d-flex flex-column">
